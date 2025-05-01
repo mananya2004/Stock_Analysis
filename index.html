@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+    <head >
+        <title>StockAnalysis</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <div class = "navbar">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#expect">Expectation</a></li>
+            <li><a href="#result">Result</a></li>
+
+        </ul>
+    </div>
+
+    <body>
+        <!-- Add HTML markup elements for your web site below -->
+        <div></div>
+        <div class="header-container">
+            <div class="header-item"></div>
+            <div class="header-item"></div>
+        </div>
+        <div id="about">
+            <h2>Stocks</h2>
+            <h3> 📈  S&P 500 Stocks and Index 📈 </h3>
+            <img src="./image/current_market.png" alt="">
+            <p>The stocks we are going to work with today are acquired from the SP 500 Stock data from Kaggle</p>
+
+        </div>
+
+        <h3 id="expect">What to Expect</h3>
+        <h4></h4>
+        <ul>
+            <li> <b>Data Extraction</b> <i>We extracted the data from Kaggle Stocks data</i></li>
+            <br>
+            <li> <b>Stock prediction model</b> <i>Using z-score, linear regression model and Standard scaler we analyse the model</i></li>
+            <br>
+            <li> <b>Result</b> <i>The accuracy rate of the model prediction and how the coefficients are related</i></li>
+            <br>
+        </ul>
+
+        <div id="result">
+            <h3>Result</h2>
+            <img alt="Image description" src="./image/nd.png"/>
+            <h5>The r-squared value was 0.994</h5>
+            <img src="./image/expectedFuture.png" alt="">
+            <h5>How the Varibales in X and Y are correlated to each other</h5>
+            <img src="./image/coefficient.png" alt="">
+            <p>This means an increase in 1 unit of any coefficient above will increase the expected future price by the coefficient value</p>
+        </div>
+
+        <a class="block" href="https://www.google.com/finance/quote/.INX:INDEXSP?sa=X&ved=2ahUKEwjeltCRnsKMAxVHCTQIHSTpA3gQ3ecFegQIOBAX">
+            <article>
+                <h2>S&P 500</h3>
+            </article>
+        </a>
+        
+        <div class="footer">
+            <p>© Tenzin Uden and Ananya Mehrotra </p>
+            </div>
+      
+    </body>
+</html>

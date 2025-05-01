@@ -1,0 +1,112 @@
+/* Add CSS styles for your web site here and use them in index.html. */
+
+body {
+    background-color: bisque;
+}
+.header-container
+{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    color: rgb(21, 22, 22);
+    margin: 10px;
+}
+
+.header-container .header-item:nth-of-type(1)
+{
+    margin: 10px;
+    float: left;
+    width: 50%;
+}
+.header-container .header-item:nth-of-type(2)
+{
+    margin: 10px;
+    float: right;
+    width: 50%;
+}
+.navbar {
+    padding: 10px;
+}
+.navbar ul
+{
+    z-index: 1000;
+    list-style-type: none;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-bottom:50%;
+
+}
+.navbar ul li
+{
+    float: left;
+    margin: 10px;
+
+}
+
+.navbar li a
+{
+    display: block;
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+    text-align: center;
+    padding: 5px;
+    background-color: burlywood;
+
+}
+
+#about
+{
+    margin: 10px;
+    color: rgb(23, 24, 24);
+    text-align: center;
+}
+#about p
+{
+    text-align: start;
+}
+#about img{
+    width: 400px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.navbar li a :hover
+{
+    background-color: rgb(204, 102, 151);
+    color: bisque;
+    text-decoration: dashed;
+}
+
+#expect{
+    text-align: center;
+}
+
+#result{
+    text-align: center;
+
+}
+
+#result img{
+    width: 400px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.block
+{
+    color: rgb(24, 24, 24);
+    text-align: center;
+    padding: 5px;
+    
+}
+.footer
+{
+    position: fixed;
+    width: 100%;
+    color: black;
+    background-color: burlywood;
+    text-align: center;
+    bottom: 0;
+    left:0;
+
+}
